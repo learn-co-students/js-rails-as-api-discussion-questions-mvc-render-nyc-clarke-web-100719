@@ -14,6 +14,7 @@ class ResponsesController < ApplicationController
                 <cite>Cookie Monster</cite>
               </body>
             </html>".html_safe
+    render plain: data
   end
 
   def json
